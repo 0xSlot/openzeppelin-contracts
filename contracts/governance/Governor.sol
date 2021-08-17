@@ -12,13 +12,13 @@ import "../utils/Timers.sol";
 import "./IGovernor.sol";
 
 /**
- * @dev Core of the governance system, designed to be extended though various modules.
+ * @dev Core of the governance system, designed to be extended through various modules.
  *
  * This contract is abstract and requires several function to be implemented in various modules:
  *
  * - A counting module must implement {quorum}, {_quorumReached}, {_voteSucceeded} and {_countVote}
  * - A voting module must implement {getVotes}
- * - Additionanly, the {votingPeriod} must also be implemented
+ * - Additionally, the {votingPeriod} must also be implemented
  *
  * _Available since v4.3._
  */
